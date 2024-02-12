@@ -1,0 +1,38 @@
+Joshua Hoog
+
+
+PROBLEM 1
+
+1. when running ls -al *, it outputs all the files in the current directory.
+   So, * matches all the files in the current directory.
+
+2. When running ls -al .*, it outputs everything under the beginning
+   directory. Because we put the . before the *, it outputs everything under
+   the main directory (documents) and its subsequent directories.
+
+3. You should never run the commands states in number 3 because it will
+   delete everything under your main directory (it will delete a lot of stuff)
+
+ 
+PROBLEM 2
+
+1. to sort a listing by file modification time, use ls -lt -c
+
+2. To show number lines when using cat, use cat -n <filename>
+
+3. displays one-line manual page descriptions    
+
+PROBLEM 3
+
+1. file.txt only contains the word apple
+
+2. file.txt now only contains the word banana. The > function will insert
+   whatever text you want, but it will override what is currently in the
+   specific file
+
+3. file.txt now contains banana and carrot. That means that >> will insert
+   text, but it will not override what is currently in the file
+
+4. | takes output and outputs it through another program. In this case, it
+   took a c b e d g f and outputed it through wc which then converted it
+   to other numbers 
